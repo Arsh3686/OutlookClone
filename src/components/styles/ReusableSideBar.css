@@ -1,0 +1,25 @@
+.hideandshow {
+	padding: 24px 0px;
+	/* padding: 10px 0; */
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	/* justify-content: space-; */
+	/* justify-content: space-; */
+}
+.hideandshow > img {
+	/* padding: 0 20px; */
+	/* padding-left: 20px; */
+	margin: 0 17px;
+}
+@media (max-width: 1100px) {
+	.ReusablesideBarElement {
+		/* width: 30%; */
+	}
+	.hideandshow > img {
+		margin: 0 10px;
+	}
+	.hideandshow > p {
+		display: none;
+	}
+}

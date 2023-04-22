@@ -1,0 +1,41 @@
+.messageAction {
+	display: flex;
+	padding: 10px 0;
+	justify-content: space-around;
+	border-color: rgb(238, 234, 234);
+	border-radius: 4px 4px 0 0;
+	border-style: solid;
+	border-width: 0px 0px 1px;
+	/* border-bottom: 1px solid grey; */
+	/* background-color: #3074b2; */
+}
+.msgactionfirst {
+	background-color: rgb(230, 231, 231);
+	/* justify-content: space-between; */
+	display: flex;
+	margin-top: 5px;
+	border-radius: 10px;
+
+	/* padding: 4px 7px; */
+}
+.msgactionfirst > p.active {
+	background-color: #fff;
+	/* padding: ; */
+	border: 1px solid gray;
+	font-weight: 500;
+	border-radius: inherit;
+	height: 100%;
+	color: #3074b2;
+}
+.msgactionfirst > p,
+.msgactionfilter > p {
+	cursor: pointer;
+	padding: 5px 5px;
+}
+
+.msgactionfilter {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+/* .msgactionfilter */

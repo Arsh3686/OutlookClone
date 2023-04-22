@@ -1,0 +1,56 @@
+.msgElement {
+	/* font-size: larger; */
+	/* display: flex; */
+	/* justify-content: space-around; */
+	/* align-items: center; */
+	/* padding-left: 30px; */
+	/* padding: 6px 0; */
+	/* background-color: #fff; */
+	/* border-bottom: 1px solid gainsboro; */
+	/* cursor: pointer; */
+	/* transition: transform 0.3s ease-in; */
+}
+/* .msgElement:hover {
+	transform: scale(1.1);
+} */
+.msgElement.active {
+	/* background-color: #c6dff3; */
+	/* font-weight: 800; */
+}
+/* .msgAttachment {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+} */
+
+.msgImg > img {
+	/* border-radius: 50%; */
+}
+.msgDetails > small {
+	word-wrap: break-word;
+}
+.msgElement > .hideand {
+	font-size: "20px";
+	visibility: hidden;
+	transition: transform 0.9s ease-in-out;
+	transform: translateY(110%);
+}
+.msgElement:hover > .hideand {
+	visibility: visible;
+	transition-delay: 200ms;
+	transform: translateY(0%);
+}
+@media (max-width: 480px) {
+	/* .sidebarElement {
+		width: 30%;
+	} */
+	.msgElement {
+		/* font-size: 3px; */
+	}
+	.sidebarElement {
+		justify-content: center;
+	}
+	.sidebarElement > .folderType {
+		display: none;
+	}
+}

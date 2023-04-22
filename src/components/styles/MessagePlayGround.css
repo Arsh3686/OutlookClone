@@ -1,0 +1,68 @@
+.msgplaygrnd {
+	padding: 20px;
+	/* height: 80vh; */
+	height: 100%;
+	width: 100%;
+	background-color: #faf9f8;
+	/* background-color: hotpink; */
+}
+.subject {
+	font-size: 20px;
+	font-weight: 500;
+}
+.actualmsg {
+	line-height: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	padding: 20px;
+	min-height: 60%;
+	/* height: fit-content; */
+	border-radius: 10px;
+	box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.actualmsg > .msgplimg > img {
+	border-radius: 50%;
+	/* width: 10%; */
+}
+.actualmsg > .msgplmsg {
+	width: 85%;
+}
+.msgtime {
+	font-size: small;
+}
+.msgLowerDetails {
+	height: max-content;
+}
+.msgLowerDetails > p {
+	font-size: small;
+}
+.msgplimg > img {
+	width: 75px;
+}
+.sendMsg {
+	/* border: 1px solid grey; */
+	box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.7);
+	position: relative;
+	border-radius: 10px;
+	min-height: 170px;
+	/* width: 100%; */
+	height: 30%;
+	padding: 20px;
+	/* background-color: burlywood; */
+}
+.btngrp {
+	/* width: 100%; */
+	position: absolute;
+	left: 16px;
+	bottom: 6px;
+}
+@media (max-width: 480px) {
+	.msgplimg {
+		padding-right: 10px;
+	}
+	.msgplimg > img {
+		width: 45px;
+	}
+}

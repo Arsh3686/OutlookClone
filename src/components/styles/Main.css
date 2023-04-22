@@ -1,0 +1,47 @@
+.main {
+	padding-top: 50px;
+	display: flex;
+	height: 100%;
+}
+.sideBar {
+	background-color: #fafafa;
+	width: 10%;
+}
+.msgre {
+	width: 30%;
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 1px 1px 0;
+}
+.msgplayground {
+	width: 70%;
+}
+@media (max-width: 1100px) {
+	.sideBar {
+		width: 50px;
+	}
+	.msgre {
+		width: 40%;
+	}
+	.msgplayground {
+		width: 65%;
+	}
+}
+@media (max-width: 768px) {
+	/* .sideBar {
+		min-width: 10%;
+		max-width: none;
+	} */
+	.sideBar {
+		width: 20%;
+	}
+	.msgre {
+		width: 80%;
+		/* min-width: 88%; */
+		/* width: 90%; */
+		/* max-width: none; */
+	}
+	.msgplayground {
+		display: none;
+	}
+}

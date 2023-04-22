@@ -1,0 +1,20 @@
+.aftersmall {
+	display: none;
+}
+.reusableMessage {
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 1px 1px 0;
+}
+
+.beforesmall {
+	display: block;
+}
+@media (max-width: 768px) {
+	.beforesmall {
+		display: none;
+	}
+	.aftersmall {
+		display: block;
+	}
+}
